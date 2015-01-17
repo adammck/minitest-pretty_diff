@@ -3,6 +3,7 @@ require "json"
 module MiniTest
   module Assertions
 
+    undef mu_pp if defined? "mu_pp"
     #
     # Returns a pretty-printed version of +obj+.
     #
